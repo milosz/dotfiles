@@ -1,0 +1,16 @@
+# List files
+alias ll="ls -l"
+alias l="ls -lA"
+
+# Change directories to go up
+alias ..="cd .."
+alias ...="cd ../../"
+
+# Exit using Vim way
+alias :q="exit"
+
+# df
+alias df="df --human-readable --print-type" 
+
+# free
+alias free="free --human --total"
