@@ -3,3 +3,4 @@
 sudo apt install exa
 sudo apt install fd-find
 sudo apt install zsh
+sudo apt install htop
