@@ -13,3 +13,7 @@ zinit light tj/git-extras
 
 zinit ice pick"async.zsh" src"pure.zsh"
 zinit light sindresorhus/pure
+
+if [ -z "$TMUX" ]; then
+  tmux new-session -A -s "$USER"
+fi
